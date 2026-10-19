@@ -1,4 +1,4 @@
-def process_transaction(user_id, amount, db_connection):
+'''def process_transaction(user_id, amount, db_connection):
     log_entry = "Start processing"
     if amount > 0:
         status = "approved"
@@ -9,3 +9,4 @@ def process_transaction(user_id, amount, db_connection):
     file = open("audit_log.txt", "w")
     file.write(log_entry)
     return status
+'''
