@@ -12,8 +12,11 @@ def process_transaction(user_id, amount, db_connection):
     # Безопасная инициализация статуса по умолчанию
     status = "pending"
     
-    # Исправление мертвого присваивания: логируем реальный старт операции
-    log_entry = f"Start processing for user {user_id} with connection {db_connection}\n"
+    # Исправление мертвого присваивания: логируем старт
+    log_entry = (
+        f"Start processing for user {user_id} "
+        f"with connection {db_connection}\n"
+    )
     
     if amount > 0:
         status = "approved"
@@ -24,7 +27,7 @@ def process_transaction(user_id, amount, db_connection):
     # Дозаписываем финальный статус в лог-строку
     log_entry += "Transaction finished with status: " + status
     
-    # Безопасное логирование с использованием контекстного менеджера context manager
+    # Безопасное логирование с использованием context manager
     with open("audit_log.txt", "w") as file:
         file.write(log_entry)
         
