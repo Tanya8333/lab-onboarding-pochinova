@@ -1,0 +1,43 @@
+COMPUTER DIAGNOSTICS
+Check date and time: 28.10.2026 20:53:01,03
+[Operating system]
+WMIC is not installed on this Windows version.
+
+[Processor]
+
+[Memory]
+Memory data is unavailable.
+
+[Drive C]
+Drive data is unavailable.
+
+[Installed programs]
+Среда выполнения Microsoft Edge WebView2 Runtime
+AnyDesk
+Copilot
+Google Chrome
+Happ - Proxy Utility 4.5.4(625)
+Honor PC Manager
+HONOR WorkStation 5.5.1.50(SP5)
+HONORDeviceClone
+Kaspersky
+Kaspersky
+KeyWe
+Microsoft 365 - ru-ru
+Microsoft Edge
+Microsoft OneNote - ru-ru
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719
+Microsoft Visual C++ 2022 X86 Additional Runtime - 14.50.35719
+Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.50.35719
+Microsoft Visual C++ v14 Redistributable (x64) - 14.50.35719
+Microsoft Visual C++ v14 Redistributable (x86) - 14.50.35719
+Microsoft Windows Application Compatibility Fix Database
+Office 16 Click-to-Run Extensibility Component
+Office 16 Click-to-Run Localization Component
+OSD
+PostgreSQL 18 
+Steam
+Wallpaper Engine
+@C:\Windows\System32\mstsc.exe,-4000
+End of report.
