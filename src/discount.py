@@ -1,6 +1,5 @@
-python
+
 def calculate_cart_total(cart_sum, tier, promos):
-    """Рассчитывает финальную стоимость корзины с учетом скидок."""
     price = cart_sum   
     if cart_sum > 15000:
         price = cart_sum * 0.85
